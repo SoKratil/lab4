@@ -4,24 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFEB3B"
+    android:background="#9CC5C5"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/result"
+        android:id="@+id/add2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
-        android:layout_marginBottom="364dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/bktext"
+        android:maxWidth="350dp"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/mindob2" />
+
+    <TextView
+        android:id="@+id/mindob2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:text="Результат"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add" />
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="225dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/bktext"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addnum" />
 
     <EditText
         android:id="@+id/addnum"
@@ -29,7 +58,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="11dp"
         android:ems="10"
-        android:hint="Введите номер"
+        android:hint="Введите число"
         android:inputType="textPersonName"
         android:textColor="#000000"
         android:textColorHint="#505050"
@@ -42,21 +71,20 @@
         android:id="@+id/button"
         android:layout_width="208dp"
         android:layout_height="48dp"
+        android:layout_marginTop="44dp"
         android:background="@drawable/btbg"
         android:onClick="clik"
         android:shadowColor="@color/white"
-        android:text="Узнать день недели"
+        android:text="Вычислить"
         android:textAllCaps="false"
         android:textSize="17sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-
-
+        app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addnum"
-        app:layout_constraintVertical_bias="0.077" />
+        app:layout_constraintTop_toBottomOf="@+id/add2" />
 
     <TextView
         android:id="@+id/textView3"
@@ -65,15 +93,28 @@
         android:layout_marginTop="48dp"
         android:layout_marginBottom="32dp"
         android:background="@color/white"
-        android:text="Узнаем День НЕДЕЛИ"
+        android:text="Вычисления"
         android:textColor="@color/black"
         android:textSize="35sp"
         app:layout_constraintBottom_toTopOf="@+id/addnum"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/mindob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="192dp"
+        android:background="#FFFFFF"
+        android:text="Максимальная добавка:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
