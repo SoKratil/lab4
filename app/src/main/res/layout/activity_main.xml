@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/bktext"
         android:maxWidth="350dp"
         android:textAllCaps="false"
@@ -21,36 +21,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mindob2" />
-
-    <TextView
-        android:id="@+id/mindob2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="16dp"
-        android:background="#FFFFFF"
-        android:text="Результат"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/add" />
-
-    <TextView
-        android:id="@+id/add"
-        android:layout_width="225dp"
-        android:layout_height="65dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="52dp"
-        android:background="@drawable/bktext"
-        android:gravity="center"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addnum" />
+        app:layout_constraintTop_toBottomOf="@+id/mindob" />
 
     <EditText
         android:id="@+id/addnum"
@@ -58,7 +29,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="11dp"
         android:ems="10"
-        android:hint="Введите число"
+        android:hint="Введите текст"
         android:inputType="textPersonName"
         android:textColor="#000000"
         android:textColorHint="#505050"
@@ -71,7 +42,7 @@
         android:id="@+id/button"
         android:layout_width="208dp"
         android:layout_height="48dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/btbg"
         android:onClick="clik"
         android:shadowColor="@color/white"
@@ -110,7 +81,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="192dp"
         android:background="#FFFFFF"
-        android:text="Максимальная добавка:"
+        android:text="Количество латинских букв"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
