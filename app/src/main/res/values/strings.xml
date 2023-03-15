@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">lab1</string>
+    <string name="question_1">Гренландия - самый крупный остров в мире.</string>
+    <string name="question_2">Самая высокая гора в мире - Эверест.</string>
+    <string name="question_3">Каспийское море - самое глубокое на планете.</string>
+    <string name="question_4">Река Нил является самой длинной на Земле.</string>
+    <string name="question_5">Африка - самый крупный континент.</string>
+    <string name="question_6">Мексиканский залив - самая большая подводная впадина в мире.</string>
+    <string name="question_7">Перу находится в Южной Америке.</string>
+    <string name="question_8">Самый большой океан в мире - Атлантический.</string>
+    <string name="question_9">Остров Тасмания находится в Индийском океане.</string>
+    <string name="question_10">Гранд-Каньон - самый глубокий каньон в мире.</string>
+    <string name="true_button">True</string>
+    <string name="end_button">Завершить</string>
+    <string name="return_button">Заново</string>
+    <string name="false_button">False</string>
+    <string name="next">next</string>
+    <string name="geoquiz">GEOQUIZ</string>
+    <string name="correct_toast">Correct!
+</string>
+    <string name="incorrect_toast">Incorrect!
+</string>
+
 </resources>
